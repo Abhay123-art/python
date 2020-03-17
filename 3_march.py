@@ -101,3 +101,12 @@ A 4 digit number is entered through keyboard. Write a program to print a new num
 INPUT : 1234        OUTPUT : 4321
 INPUT : 5982        OUTPUT : 2895
 '''
+
+a = int(input("a = "))
+rev = 0
+while(a>0):
+    c = a%10
+    a = a//10
+    rev = (rev*10)+c
+print('reverse:', rev)
+
